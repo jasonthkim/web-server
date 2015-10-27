@@ -19,7 +19,7 @@ var middleware = {
 app.use(middleware.logger);
 
 app.get('/about', middleware.requireAuthentication, function (req, res) {
-	res.send('<h1>About Us</h1>');
+	res.send('<h1>About Us!</h1>');
 });
 
 // This command below is how to find full directory 
